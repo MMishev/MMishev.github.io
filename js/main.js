@@ -8,13 +8,16 @@ var setActiveLink = $("#topNav").on("click","a",function(){
 
 })
 function getContent(fragmentId,callback){
-    var request = new XMLHttpRequest();
-    request.onload = function(){
-        callback(request.responseText);
-    };
-    request.open("GET","../html/"+fragmentId+".html")
-    request.send(null);
-    
+    var partials ={
+        home:"home",
+        groups:"groups",
+        topscorers:"topscorers",
+        stadiums:"stadiums",
+        info:"info"
+
+    }
+
+    callback(partials[fragmentId]);
 }
 function navigate(){
     var contentDiv = $("#main");
