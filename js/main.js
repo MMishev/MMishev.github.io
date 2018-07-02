@@ -1,5 +1,5 @@
 
-$.backstretch("../images/bg.jpg");
+$.backstretch("images/bg.jpg");
 
 var setActiveLink = $("#topNav").on("click","a",function(){
     $("#topNav .active").toggleClass("active");
