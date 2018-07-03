@@ -1,4 +1,4 @@
-$.backstretch("images/bg.jpg");
+$.backstretch("../images/bg.jpg");
 var myApp = angular.module('myApp', ['ngRoute']);
 
 
