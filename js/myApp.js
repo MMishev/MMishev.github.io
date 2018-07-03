@@ -1,5 +1,13 @@
-$.backstretch("../images/bg.jpg");
+$.backstretch("images/bg.jpg");
+
+var setActiveLink = $("#topNav").on("click","a",function(){
+    $("#topNav .active").toggleClass("active");
+    $this = $(this);
+    $this.toggleClass("active");
+
+});
 var myApp = angular.module('myApp', ['ngRoute']);
+
 
 
 myApp.config(function($routeProvider){
@@ -26,9 +34,3 @@ myApp.controller('stadiumsCtrl',function(){
 
 
 
-var setActiveLink = $("#topNav").on("click","a",function(){
-    $("#topNav .active").toggleClass("active");
-    $this = $(this);
-    $this.toggleClass("active");
-
-})
