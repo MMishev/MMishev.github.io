@@ -33,7 +33,7 @@
 .wrapper{
     float:left;
 }
-.clearfix::after {
+.clearfix:after {
     content: "";
     clear: both;
     display: table;
