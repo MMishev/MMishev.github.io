@@ -1,3 +1,4 @@
+$.backstretch("images/bg.jpg");
 var myApp = angular.module('myApp', ['ngRoute']);
 
 
@@ -20,3 +21,10 @@ myApp.controller('groupsCtrl',function(){
 myApp.controller('stadiumsCtrl',function(){
 
 });
+
+
+
+var setActiveLink = $("#topNav").on("click","a",function(){
+    $("#topNav .active").toggleClass("active");
+    $this = $(this);
+    $this.toggleClass("active");
