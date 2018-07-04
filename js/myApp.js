@@ -7,9 +7,9 @@ var setActiveLink = $("#topNav").on("click","a",function(){
 
 });
 
-var popUpImg = $("#stadiumsContent").on("click","a",function(){
+var popUpImg = $("#stadiumsContent").on("click","div",function(){
     $("#stadiumsContent .show").toggleClass("show");
-    $this = $(this).children("img");
+    $this = $(this).find("img");
     console.log($this);
     $this.toggleClass("show");
 });
