@@ -36,6 +36,9 @@
 }
 
 .stadium{
+    text-align: center;
+    text-decoration: none;
+    color: #333333;
     float:left;
     width: 50%;
 
