@@ -48,6 +48,13 @@
     width: 100%;
 
 }
+.home{
+    text-align: center;
+}
+.homeContent{
+    text-align: center;
+}
+
 .clearfix:after {
     content: "";
     clear: both;
