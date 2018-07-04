@@ -33,10 +33,10 @@
 .wrapper{
     float:left;
 }
-.stadiumsContent{
+.stadium{
     float:left;
     width: 50%;
-    
+
 }
 .clearfix:after {
     content: "";
