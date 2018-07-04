@@ -26,6 +26,11 @@ var setActiveLink = $("#topNav").on("click", "a", function () {
     $this.toggleClass("active");
 
 });
+  $(function () {
+        $("#preload").fadeOut(2000, function () {
+            $("#homeDiv").fadeIn(1000);
+        });
+    });
 });
 myApp.controller('homeCtrl', function () {
         $(function () {
