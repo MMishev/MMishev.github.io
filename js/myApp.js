@@ -13,6 +13,7 @@ var popUpImg = $("#stadiumsContent").on("click","a",function(){
     console.log($this);
     $this.toggleClass("show");
 });
+
 //Angular
 var myApp = angular.module('myApp', ['ngRoute']);
 
