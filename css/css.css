@@ -97,3 +97,67 @@
     from {opacity: 0;}
     to {opacity:1 ;}
 }
+
+
+/*Table*/
+#t01 {
+    width: 100%;
+    background-color: #D3EBEA;
+}
+
+#t02 {
+    width: 100%;
+    background-color: #D3EBEA;
+}
+
+#t03 {
+    width: 100%;
+    background-color: #D3EBEA;
+}
+
+#t04 {
+    width: 100%;
+    background-color: #D3EBEA;
+}
+
+#t05 {
+    width: 100%;
+    background-color: #D3EBEA;
+}
+
+#t06 {
+    width: 100%;
+    background-color: #D3EBEA;
+}
+
+#t07 {
+    width: 100%;
+    background-color: #D3EBEA;
+}
+
+#t08 {
+    width: 100%;
+    background-color: #D3EBEA;
+}
+#jb {
+ margin-top:10%;
+ background-color:lightgreen;
+ font-family:cursive;   
+}
+td{
+ padding:10px;   
+}
+th{text-align:center;}
+#tr1{
+    background-color:#FFF000;
+}
+
+table{
+    display: none;
+    text-align: center;
+    margin-bottom:10%;
+    
+}
+td image{
+    width:50px;
+}
