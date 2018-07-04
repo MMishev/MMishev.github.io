@@ -9,7 +9,8 @@ var setActiveLink = $("#topNav").on("click","a",function(){
 
 var popUpImg = $("#stadiumsContent").on("click","a",function(){
     $("#stadiumsContent .show").toggleClass("show");
-    $this = $(this).children(".popuptext");
+    $this = $(this).children("img");
+    console.log($this);
     $this.toggleClass("show");
 });
 //Angular
