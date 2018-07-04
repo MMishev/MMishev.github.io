@@ -52,7 +52,11 @@
     text-align: center;
 }
 .homeContent{
+    height: 100%;
     text-align: center;
+}
+.homeDiv{
+    display: none;
 }
 
 .clearfix:after {

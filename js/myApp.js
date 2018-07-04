@@ -28,11 +28,11 @@ myApp.controller('myAppCtrl', function () {
 
 });
 myApp.controller('homeCtrl', function () {
-    var $preload = $(function(){
-        $("#preload").fadeout(2000,function(){
-            $("#content").fadein(1000)
-        })
-    })
+        $(function () {
+        $("#preload").fadeOut(2000, function () {
+            $("#homeDiv").fadeIn(1000);
+        });
+    });
 
 });
 myApp.controller('groupsCtrl', function () {
