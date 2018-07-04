@@ -7,6 +7,11 @@ var setActiveLink = $("#topNav").on("click","a",function(){
 
 });
 
+var popUpImg = $("popup").on("click","a",function(){
+    $("#topNav .active").toggleClass("show");
+    $this = $(this);
+    $this.toggleClass("show");
+});
 //Angular
 var myApp = angular.module('myApp', ['ngRoute']);
 
